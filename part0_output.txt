@@ -1,0 +1,51 @@
+PART 0 -- OpenAI tokenizer pair. No API key, no cost, no network.
+
+SENTENCE
+------------------------------------------------------------------
+                         EN           RU           KK
+o200k_base               12           18           21
+  ÷ EN                1.00x        1.50x        1.75x
+cl100k_base              12           35           58
+  ÷ EN                1.00x        2.92x        4.83x
+
+COMPLAINT
+------------------------------------------------------------------
+                         EN           RU           KK
+o200k_base               59           80          118
+  ÷ EN                1.00x        1.36x        2.00x
+cl100k_base              59          146          265
+  ÷ EN                1.00x        2.47x        4.49x
+
+SYSTEM_PROMPT
+------------------------------------------------------------------
+                         EN           RU           KK
+o200k_base               40           49           67
+  ÷ EN                1.00x        1.23x        1.68x
+cl100k_base              40           77          157
+  ÷ EN                1.00x        1.93x        3.92x
+
+MY_ITEM
+------------------------------------------------------------------
+                         EN           RU           KK
+o200k_base               13           16           17
+  ÷ EN                1.00x        1.23x        1.31x
+cl100k_base              13           30           39
+  ÷ EN                1.00x        2.31x        3.00x
+
+KK_COMMON
+------------------------------------------------------------------
+                         EN           RU           KK
+o200k_base                1            1            5
+  ÷ EN                1.00x        1.00x        5.00x
+cl100k_base               1            1           11
+  ÷ EN                1.00x        1.00x       11.00x
+
+KK_SPECIAL
+------------------------------------------------------------------
+                         EN           RU           KK
+o200k_base                1            1            5
+  ÷ EN                1.00x        1.00x        5.00x
+cl100k_base               1            1           12
+  ÷ EN                1.00x        1.00x       12.00x
+
+These two bracket the six-tokenizer spread shown in lecture 02: o200k_base is the kindest to Kazakh there, cl100k_base the harshest. Llama 3, Qwen2.5, Gemma and DeepSeek-V3 are not reproduced here -- gated weights or large downloads, not a classroom fit.

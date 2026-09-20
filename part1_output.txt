@@ -1,0 +1,55 @@
+PART 1 -- offline size measures. No API key, no cost, no network.
+
+SENTENCE
+------------------------------------------------------------------
+                         EN           RU           KK
+chars                    69           75           72
+bytes                    69          139          135
+words                    11           11            9
+bytes/EN              1.00x        2.01x        1.96x
+bytes/char             1.00         1.85         1.88
+
+COMPLAINT
+------------------------------------------------------------------
+                         EN           RU           KK
+chars                   300          315          344
+bytes                   300          576          640
+words                    54           45           42
+bytes/EN              1.00x        1.92x        2.13x
+bytes/char             1.00         1.83         1.86
+
+SYSTEM_PROMPT
+------------------------------------------------------------------
+                         EN           RU           KK
+chars                   175          181          206
+bytes                   175          331          380
+words                    34           27           28
+bytes/EN              1.00x        1.89x        2.17x
+bytes/char             1.00         1.83         1.84
+
+MY_ITEM
+------------------------------------------------------------------
+                         EN           RU           KK
+chars                    65           65           55
+bytes                    65          121          100
+words                    12            9           10
+bytes/EN              1.00x        1.86x        1.54x
+bytes/char             1.00         1.86         1.82
+
+KK_COMMON
+------------------------------------------------------------------
+                         EN           RU           KK
+chars                     4            4           18
+bytes                     4            4           33
+words                     1            1            3
+bytes/EN              1.00x        1.00x        8.25x
+bytes/char             1.00         1.00         1.83
+
+KK_SPECIAL
+------------------------------------------------------------------
+                         EN           RU           KK
+chars                     4            4           18
+bytes                     4            4           33
+words                     1            1            3
+bytes/EN              1.00x        1.00x        8.25x
+bytes/char             1.00         1.00         1.83
