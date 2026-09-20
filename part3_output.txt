@@ -1,3 +1,4 @@
+﻿prices from https://platform.claude.com/docs/en/about-claude/models/overview.md
 checked 2026-09-12; tokens counted on claude-opus-5
 answer length: measured in Part 2, per language
 

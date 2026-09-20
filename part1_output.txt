@@ -1,4 +1,4 @@
-PART 1 -- offline size measures. No API key, no cost, no network.
+﻿PART 1 -- offline size measures. No API key, no cost, no network.
 
 SENTENCE
 ------------------------------------------------------------------
@@ -30,26 +30,47 @@ bytes/char             1.00         1.83         1.84
 MY_ITEM
 ------------------------------------------------------------------
                          EN           RU           KK
-chars                    65           65           55
-bytes                    65          121          100
-words                    12            9           10
-bytes/EN              1.00x        1.86x        1.54x
-bytes/char             1.00         1.86         1.82
+chars                   251          238          228
+bytes                   251          443          420
+words                    42           30           34
+bytes/EN              1.00x        1.76x        1.67x
+bytes/char             1.00         1.86         1.84
 
 KK_COMMON
 ------------------------------------------------------------------
                          EN           RU           KK
-chars                     4            4           18
-bytes                     4            4           33
-words                     1            1            3
-bytes/EN              1.00x        1.00x        8.25x
-bytes/char             1.00         1.00         1.83
+chars                    32           30           35
+bytes                    32           51           63
+words                     8            8            6
+bytes/EN              1.00x        1.59x        1.97x
+bytes/char             1.00         1.70         1.80
 
 KK_SPECIAL
 ------------------------------------------------------------------
                          EN           RU           KK
-chars                     4            4           18
-bytes                     4            4           33
-words                     1            1            3
-bytes/EN              1.00x        1.00x        8.25x
-bytes/char             1.00         1.00         1.83
+chars                    65           54           40
+bytes                    65          100           74
+words                    10            8            6
+bytes/EN              1.00x        1.54x        1.14x
+bytes/char             1.00         1.85         1.85
+
+COMPLAINT_JSON
+------------------------------------------------------------------
+                         EN           RU           KK
+chars                   374          389          418
+bytes                   374          650          714
+words                    59           50           47
+bytes/EN              1.00x        1.74x        1.91x
+bytes/char             1.00         1.67         1.71
+
+==================================================================
+WRITE THESE DOWN BEFORE PART 2
+==================================================================
+1. A Latin letter is 1 byte in UTF-8; Cyrillic is 2. Kazakh letters
+   outside the Russian alphabet (ә, ғ, қ, ң, ө, ұ, ү, һ, і) are also 2.
+   You can see that in the bytes/char row above.
+2. Predict, for the COMPLAINT item: how many TOKENS will the Russian
+   version cost, as a multiple of the English one?   RU / EN = ____
+3. Same question for Kazakh.                          KK / EN = ____
+4. On what did you base the prediction -- characters, bytes, or words?
+5. Which one, if any, would a tokenizer have any reason to follow?

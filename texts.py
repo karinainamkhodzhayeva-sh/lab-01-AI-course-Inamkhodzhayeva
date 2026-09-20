@@ -75,16 +75,23 @@ CORPUS: Dict[str, Dict[str, str]] = {
     "complaint": COMPLAINT,
     "system_prompt": SYSTEM_PROMPT,
     "my_item": {
-        "en": "The contract is valid for twelve months from the date of signing.",
-        "ru": "Договор действует в течение двенадцати месяцев с даты подписания.",
-        "kk": "Шарт қол қойылған күннен бастап он екі ай бойы жарамды."
+        "en": "The contract is valid for twelve months from the date of signing. The bank may change the interest rate only after notifying the client in writing thirty days in advance. The client may terminate the contract early by submitting a written application.",
+        "ru": "Договор действует в течение двенадцати месяцев с даты подписания. Банк вправе изменить процентную ставку только после письменного уведомления клиента за тридцать дней. Клиент может расторгнуть договор досрочно, подав письменное заявление.",
+        "kk": "Шарт қол қойылған күннен бастап он екі ай бойы жарамды. Банк пайыздық мөлшерлемені клиентті отыз күн бұрын жазбаша хабардар еткеннен кейін ғана өзгерте алады. Клиент жазбаша өтініш беру арқылы шартты мерзімінен бұрын бұза алады.",
     },
     "kk_common": {
-        "en": "test", "ru": "test",
-        "kk": "Бул мектеп кешені."
+        "en": "I go to school, and he goes too.",
+        "ru": "Я иду в школу, и он тоже идёт.",
+        "kk": "Мен мектепке барамын, ол да барады.",
     },
     "kk_special": {
-        "en": "test", "ru": "test",
-        "kk": "Бұл мектеп кешені."
-    }
+        "en": "The beautiful city on the great steppe lifted everyone's spirits.",
+        "ru": "Красивый город в великой степи поднял всем настроение.",
+        "kk": "Ұлы даладағы әдемі қала көңілді қуантты.",
+    },
+        "complaint_json": {
+        "en": '{"greeting": "Good afternoon.", "history": "I opened a deposit at your branch in March and was told the rate was fixed for twelve months.", "issue": "In August the rate on my account dropped without any notice.", "attachments": "I have attached the contract and the statement.", "request": "Please explain on what basis the rate was changed and restore the original terms."}',
+        "ru": '{"greeting": "Добрый день.", "history": "Я открыл депозит в вашем отделении в марте, и мне сказали, что ставка зафиксирована на двенадцать месяцев.", "issue": "В августе ставка по моему счёту снизилась без какого-либо уведомления.", "attachments": "Прилагаю договор и выписку.", "request": "Прошу объяснить, на каком основании была изменена ставка, и восстановить первоначальные условия."}',
+        "kk": '{"greeting": "Қайырлы күн.", "history": "Мен наурыз айында сіздің бөлімшеңізде депозит аштым, маған мөлшерлеме он екі айға бекітілген деп айтылды.", "issue": "Тамыз айында менің шотымдағы мөлшерлеме ешқандай хабарламасыз төмендеді.", "attachments": "Шартты және үзінді көшірмені қоса тіркеп отырмын.", "request": "Мөлшерлеме қандай негізде өзгертілгенін түсіндіріп, бастапқы шарттарды қалпына келтіруіңізді сұраймын."}',
+    },
 }
