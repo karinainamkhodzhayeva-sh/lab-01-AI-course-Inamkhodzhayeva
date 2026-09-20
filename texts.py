@@ -74,17 +74,4 @@ CORPUS: Dict[str, Dict[str, str]] = {
     "sentence": SENTENCE,
     "complaint": COMPLAINT,
     "system_prompt": SYSTEM_PROMPT,
-    "my_item": {
-        "en": "The contract is valid for twelve months from the date of signing.",
-        "ru": "Договор действует в течение двенадцати месяцев с даты подписания.",
-        "kk": "Шарт қол қойылған күннен бастап он екі ай бойы жарамды."
-    },
-    "kk_common": {
-        "en": "test", "ru": "test",
-        "kk": "Бул мектеп кешені."
-    },
-    "kk_special": {
-        "en": "test", "ru": "test",
-        "kk": "Бұл мектеп кешені."
-    }
 }

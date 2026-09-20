@@ -64,8 +64,7 @@ Public discussions often confuse the Input Token Ratio with the Total Bill Ratio
 Why they differ: Output tokens are priced significantly higher than input tokens. Because the generated answers (output length) stabilize across languages, the extreme input token penalty of Kazakh (2.19x) gets diluted in the total bill, resulting in a lower real-world cost premium of 1.42x. 
 *   *Financial impact on opus-5:* Running a Kazakh queue instead of English costs \$7,599/year more for the exact same volume.
 
----
-[20.09.2026 16:29] Karina: ## 4. Production Recommendation for Kazakh Support
+## 4. Production Recommendation for Kazakh Support
 
 Recommended Model: sonnet-5
 
