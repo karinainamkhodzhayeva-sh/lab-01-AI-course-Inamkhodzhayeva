@@ -1,0 +1,69 @@
+{
+  "model": "gpt-5.6-luna",
+  "tokenizer_used_for_token_counts": "o200k_base",
+  "token_counts": {
+    "sentence": {
+      "en": 12,
+      "ru": 18,
+      "kk": 21
+    },
+    "complaint": {
+      "en": 59,
+      "ru": 80,
+      "kk": 118
+    },
+    "system_prompt": {
+      "en": 40,
+      "ru": 49,
+      "kk": 67
+    },
+    "my_item": {
+      "en": 45,
+      "ru": 54,
+      "kk": 65
+    },
+    "kk_common": {
+      "en": 10,
+      "ru": 12,
+      "kk": 11
+    },
+    "kk_special": {
+      "en": 12,
+      "ru": 14,
+      "kk": 14
+    },
+    "complaint_json": {
+      "en": 81,
+      "ru": 102,
+      "kk": 140
+    }
+  },
+  "request_tokens": {
+    "en": 109,
+    "ru": 139,
+    "kk": 195
+  },
+  "one_request_billed": {
+    "en": {
+      "input_tokens": 109,
+      "output_tokens": 120,
+      "reasoning_tokens": 29,
+      "finish_reason": "stop",
+      "answer": "Good afternoon. I can’t see the contract or statement attached to this conversation, so I’m unable to determine the basis for the rate change or confirm whether the twelve-month fixed-rate term was breached.\n\nPlease re-upload the documents, including the pages showing the interest-rate terms, effective dates, and any variation clauses. Once reviewed, we can assess whether the change was permitted and what corrective action may be appropriate."
+    },
+    "ru": {
+      "input_tokens": 139,
+      "output_tokens": 132,
+      "reasoning_tokens": 30,
+      "finish_reason": "stop",
+      "answer": "Добрый день. В сообщении договор и выписка не отображаются, поэтому я не могу проверить условия депозита, порядок изменения ставки или основание для её снижения.\n\nПожалуйста, прикрепите документы повторно — особенно страницы с указанием процентной ставки, срока вклада и условий её изменения, а также выписку за март–август. После этого можно будет проверить ситуацию и определить, предусмотрено ли договором изменение ставки."
+    },
+    "kk": {
+      "input_tokens": 195,
+      "output_tokens": 232,
+      "reasoning_tokens": 51,
+      "finish_reason": "stop",
+      "answer": "Қайырлы күн!\n\nХабарламаңызға тіркелген шарт пен үзінді көшірме бұл чатта көрінбейді, сондықтан мөлшерлеменің тамыз айында қандай негізде өзгертілгенін тексеріп, бастапқы шарттарды қалпына келтіру туралы шешім айта алмаймын.\n\nҚұжаттарды қайта жіберіңіз немесе шарттағы мөлшерлемеге қатысты тармақ пен үзінді көшірмедегі өзгеріс көрсетілген бөлікті осында көшіріп беріңіз. Жеке деректерді, шот нөмірін және басқа құпия ақпаратты жасырып жіберуіңізге болады.  \nТексеру нәтижесінде өзгеріс шарт талаптарына сәйкес келмегені анықталса, өтінішіңіз белгіленген тәртіппен қаралады."
+    }
+  }
+}
